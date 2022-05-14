@@ -12,6 +12,9 @@ class FizzBuzzTestCase(unittest.TestCase):
     def test_outputBuzz(self):
         self.assertEqual(Fizzbuzz.calculate(80), 'buzz')
 
+    def test_outputGitHub(self):
+        self.assertEqual(Fizzbuzz.calculate(72), 'GitHub')
+
 
 if __name__ == '__main__':
     unittest.main()
